@@ -48,7 +48,7 @@ steps:
       $(version)
 - task: AzureCLI@1
   inputs:
-    connectedServiceNameARM: 'connectiontestdocker'
+    connectedServiceNameARM: 'resource_hello-world'
     scriptLocation: 'inlineScript'
     inlineScript: |
       az container delete --resource-group $(resourceGroup) --name $(containerName) --yes
