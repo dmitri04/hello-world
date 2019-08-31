@@ -8,7 +8,6 @@ trigger:
 
 variables:
   resourceGroup: 'microservices'
-  resourceGroup: 'microservices'
   containerName: 'hello-world-pipeline-3'
   imageName: 'devs4j/hello-world-pipeline-3'
   dnsName: 'hello-world-03-1234'
